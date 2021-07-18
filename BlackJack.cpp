@@ -227,8 +227,6 @@ bool playBlackjack(array<Card, 52>& deck) {
 }
 
 int main() {
-	setlocale(LC_ALL, "Cypriot");
-
 	// Forming an ordered deck
 	array<Card, 52> deck;
 	int card = 0;
